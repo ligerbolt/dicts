@@ -5,61 +5,6 @@
 *
 **
 +
--
---help
---ignore-dir=<dir>
---ignore-module=<mod>
---user-base
---user-site
---version
--3
--?
--B
--C,
--E
--J
--O
--OO
--Q
--R
--R,
--S
--T,
--U
--V
--W
--X
--b,
--c
--c,
--d
--f
--f,
--g,
--h
--h,
--i
--l
--l,
--m
--m,
--n
--p
--q
--r
--r,
--s
--s,
--t
--t,
--u
--v
--v,
--x
-.ini
-.pdbrc
-.pypirc
-.pythonrc.py
 /
 //
 <
@@ -74,7 +19,6 @@
 A-LAW
 ABCMeta
 ACTIONS
-ADPCM,
 AES
 AEServer
 AEText
@@ -659,7 +603,6 @@ EasyDialogs
 Element
 ElementDeclHandler()
 ElementTree
-Ellinghouse,
 Ellipsis
 EllipsisType
 Empty
@@ -942,7 +885,6 @@ JUMP_ABSOLUTE
 JUMP_FORWARD
 JUMP_IF_FALSE_OR_POP
 JUMP_IF_TRUE_OR_POP
-Jansen,
 Java
 JoinableQueue
 KDEDIR
@@ -962,7 +904,6 @@ KeyError
 KeyboardInterrupt
 KeysView
 Keyword
-Kuchling,
 L
 LANG
 LANGUAGE
@@ -1029,7 +970,6 @@ LoggerAdapter
 Logical
 LongType
 LookupError
-Lundh,
 M
 MAKE_CLOSURE
 MAKE_FUNCTION
@@ -1237,7 +1177,6 @@ OutputString()
 OutputType
 Overflow
 OverflowError
-Overmars,
 PAGER
 PARSE_COLNAMES
 PARSE_DECLTYPES
@@ -1328,7 +1267,6 @@ Pdb
 PendingDeprecationWarning
 Performance
 Persist()
-Philbrick,
 PickleError
 Pickler
 PicklingError
@@ -2672,7 +2610,6 @@ StartElementHandler()
 StartNamespaceDeclHandler()
 Stats
 StdButtonBox
-Stein,
 StopIteration
 StreamError
 StreamHandler
@@ -2766,7 +2703,6 @@ True
 TupleType
 Turtle
 TurtleScreen
-Tutt,
 Type
 TypeError
 TypeType
@@ -3312,7 +3248,6 @@ assert_line_data()
 assertions
 asserts
 assignment
-assignment,
 ast
 astimezone()
 async_chat
@@ -3334,7 +3269,6 @@ attach()
 attrgetter()
 attrib
 attribute
-attribute,
 attributes
 attroff()
 attron()
@@ -3395,7 +3329,6 @@ bind
 bind()
 bind_textdomain_codeset()
 binding
-binding,
 bindtextdomain()
 binhex
 binhex()
@@ -3494,7 +3427,6 @@ calendar
 calendar()
 call
 call()
-call,
 call_tracing()
 callable
 callable()
@@ -3827,7 +3759,6 @@ daemon
 dangling
 data
 data()
-data,
 database
 databases
 date
@@ -3844,7 +3775,6 @@ dbhash
 dbm
 deactivate_form()
 deallocation
-deallocation,
 debug
 debug()
 debug_print()
@@ -4013,7 +3943,6 @@ div()
 divide()
 divide_int()
 division
-division,
 divmod
 divmod()
 dl
@@ -4308,7 +4237,6 @@ fields
 fifo
 file
 file()
-file,
 file-like
 fileConfig()
 file_created()
@@ -4330,7 +4258,6 @@ filter
 filter()
 filterwarnings()
 finalization
-finalization,
 finalize_options()
 finally
 find()
@@ -4423,7 +4350,6 @@ formatdate()
 formatmonth()
 formatter
 formatting
-formatting,
 formatwarning()
 formatyear()
 formatyearpage()
@@ -5069,7 +4995,6 @@ iconcat()
 icopen
 id
 id()
-id,
 idcok()
 ident
 identchars
@@ -5210,7 +5135,6 @@ internal
 internalSubset
 internal_attr
 interpolation
-interpolation,
 interpreted
 interpreter
 interrupt()
@@ -5498,7 +5422,6 @@ linkname
 linux_distribution()
 list
 list()
-list,
 listMethods()
 list_dialects()
 list_folders()
@@ -5512,7 +5435,6 @@ listsubfolders()
 literal
 literal_eval()
 literals
-literals,
 ljust()
 ln()
 lngettext()
@@ -5543,7 +5465,6 @@ locals
 locals()
 localtime()
 lock()
-lock,
 lock_held()
 locked()
 lockf()
@@ -5916,7 +5837,6 @@ openport()
 openpty()
 openrf()
 operation
-operation,
 operations
 operator
 operators
@@ -5997,7 +5917,6 @@ partition()
 pass
 pass_()
 path
-path,
 path_hooks
 path_importer_cache
 path_return_ok()
@@ -6119,7 +6038,6 @@ procedure
 process()
 process_message()
 process_request()
-processes,
 processfile()
 processfile_fromresource()
 processingInstruction()
@@ -6128,11 +6046,9 @@ processor()
 product()
 profile
 profiler
-profiling,
 program
 prompt
 prompt_user_passwd()
-prompts,
 propagate
 property
 property_declaration_handler
@@ -6522,7 +6438,6 @@ selection_add()
 selection_remove()
 selection_set()
 selection_toggle()
-semaphores,
 send()
 send_bytes()
 send_error()
@@ -6922,7 +6837,6 @@ strides
 string
 string_at()
 stringprep
-strings,
 strip()
 strip_dirs()
 stripspaces
@@ -7181,12 +7095,10 @@ turtle
 turtles()
 turtlesize()
 type
-type,
 typeahead()
 typecode
 typed_subpart_iterator()
 types
-types,
 types_map
 tzinfo
 tzname
@@ -7328,7 +7240,6 @@ uuid5
 uuid5()
 validator()
 value
-value,
 value_decode()
 value_encode()
 valuerefs()

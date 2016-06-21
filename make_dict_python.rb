@@ -26,8 +26,8 @@ BASE_URL = "http://docs.python.jp/" + versions + '/'.freeze
 INDEX_URL = BASE_URL + 'genindex.html'.freeze
 
 res = Net::HTTP.get_response(URI.parse(INDEX_URL))
-if res.code != 200
-  puts "status error : " + res.code.to_s
+if res.code != '200'
+  puts "status error : " + res.code
   exit
 end
 
@@ -39,8 +39,10 @@ link_tags.search('//p[position()=1]//a').each do |tag|
   urls = URI.escape(BASE_URL + tag[:href])
   doc = Nokogiri::HTML(open(urls))
   doc.search('.//table[@class="indextable"]//a[position()=1]').each do |item|
-    item = item.text.split[0]
-    items << item unless item.has_multibytes? || item.chr == '('
+      item = item.text.split[0]
+      unless item.match(/^[-.:(]|,$/)
+        items << item if !item.has_multibytes?
+      end
   end
 end
 
