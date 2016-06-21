@@ -40,8 +40,8 @@ link_tags.search('//p[position()=1]//a').each do |tag|
   doc = Nokogiri::HTML(open(urls))
   doc.search('.//table[@class="indextable"]//a[position()=1]').each do |item|
       item = item.text.split[0]
-      unless item.match(/^[-.:(]|,$/)
-        items << item if !item.has_multibytes?
+      unless item.match(/^[-.:(]|,$/) || item.has_multibytes?
+        items << item
       end
   end
 end
